@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 10px;
+}
+
+.game_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+canvas {
+  border: 10px solid orange;
+}
